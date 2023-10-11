@@ -6,7 +6,7 @@ RUN apt-get install -y mongodb-server ruby-full ruby-dev build-essential git
 RUN gem install bundler -v 2.3.26
 RUN git clone -b monolith https://github.com/express42/reddit.git
 
-COPY mongodb.conf /etc/mongodb.conf
+COPY mongodb.conf /etc/mongod.conf
 COPY db_config /reddit/db_config
 COPY start.sh /start.sh
 
