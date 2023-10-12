@@ -7,3 +7,8 @@ tuturu0 microservices repository
 
 - Базовое знакомство с docker
 - Пуш образа docker hub
+
+
+#ДЗ №12
+
+Заглушка для закрытия ДЗ 12 на сайте otus
