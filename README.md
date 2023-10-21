@@ -11,7 +11,7 @@ tuturu0 microservices repository
 # Имя проекта по умолчанию берётся из каталога docker-compose.yml, можно указать вручную при помощи ключа "-p"
 Пример использования:
 ```Bash
-docker compose -p prod up -d 
+docker compose -p prod up -d
 ```
 
 # ДЗ №14
