@@ -1,6 +1,19 @@
 # tuturu0_microservices
 tuturu0 microservices repository
 
+# ДЗ №15
+
+- Проведены эксперименты с сетевымы драйверами docker
+- Создан docker-compose.yml
+- Параметризированы некоторые значения при помощи .env
+- Создан docker-compose.yml.override
+
+# Имя проекта по умолчанию берётся из каталога docker-compose.yml, можно указать вручную при помощи ключа "-p"
+Пример использования:
+```Bash
+docker compose -p prod up -d
+```
+
 # ДЗ №14
 
 
