@@ -1,6 +1,33 @@
 # tuturu0_microservices
 tuturu0 microservices repository
 
+# ДЗ №18
+
+
+- Изучен сбор и фильтрация логов с использованием сервиса post
+- Изучен сбор и фильтрация логов с использованием сервиса ui
+- Изучены Grok-шаблоны
+
+# Дополнительное задание 1
+```bash
+<filter service.ui>
+  @type parser
+  <parse>
+    @type grok
+    <grok>
+      pattern service=%{WORD:service} \| event=%{WORD:event} \| path=%{GREEDYDATA:path} \| request_id=%{GREEDYDATA:request_id} \| remote_addr=%{IPV4:remote_addr} \| method= %{WORD:method} \| response_status=%{INT:response_status}
+    </grok>
+  </parse>
+  key_name message
+  # reserve_data true
+</filter>
+```
+Дополнительное задание 2 не делалось
+
+
+-----------------------------------------------------------------
+
+
 # ДЗ №17
 
 
