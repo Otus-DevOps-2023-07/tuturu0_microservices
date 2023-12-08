@@ -1,6 +1,17 @@
 # tuturu0_microservices
 tuturu0 microservices repository
 
+# ДЗ №19
+
+
+- Настроены master и worker-ноды: установлены kubeadm, kubectl, kubelet
+- Созданы Deployment манифесты приложений reddit 
+- Установлен сетевой плагин calico
+
+
+
+
+-----------------------------------------------------------------
 
 # ДЗ №18
 
