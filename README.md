@@ -1,6 +1,20 @@
 # tuturu0_microservices
 tuturu0 microservices repository
 
+# ДЗ №20
+
+
+- Развернуто локальное окружение minikube для работы с Kubernetes
+- Развернут Kubernetes в Yandex Cloud
+- Запущен reddit в Kubernetes
+
+
+
+-----------------------------------------------------------------
+
+
+
+
 # ДЗ №19
 
 
