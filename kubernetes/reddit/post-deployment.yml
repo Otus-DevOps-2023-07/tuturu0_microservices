@@ -21,3 +21,6 @@ spec: # Блок спецификации деплоя
       containers:
       - image: tuturu0/post:logging
         name: post
+        env:
+        - name: POST_DATABASE_HOST
+          value: post-db
