@@ -1,11 +1,25 @@
 # tuturu0_microservices
 tuturu0 microservices repository
 
+# ДЗ №20
+
+
+- Развернуто локальное окружение minikube для работы с Kubernetes
+- Развернут Kubernetes в Yandex Cloud
+- Запущен reddit в Kubernetes
+
+
+
+-----------------------------------------------------------------
+
+
+
+
 # ДЗ №19
 
 
 - Настроены master и worker-ноды: установлены kubeadm, kubectl, kubelet
-- Созданы Deployment манифесты приложений reddit 
+- Созданы Deployment манифесты приложений reddit
 - Установлен сетевой плагин calico
 
 
