@@ -1,0 +1,11 @@
+---
+service:
+  internalPort: 9292
+  externalPort: 9292
+
+image:
+  repository: tuturu0/comment
+  tag: "1.0"
+
+databaseHost:
+  ### !!!!

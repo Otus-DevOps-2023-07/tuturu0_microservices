@@ -1,6 +1,6 @@
-FROM ruby:2.2
-RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list && \
-    apt-get update -qq && apt-get install -y build-essential
+FROM ruby:2.4-alpine
+
+RUN apk --update add build-base && rm -rf /etc/apk/cache && rm -rf /var/cache/apk
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
@@ -10,7 +10,6 @@ ADD Gemfile* $APP_HOME/
 RUN bundle install
 ADD . $APP_HOME
 
-ENV COMMENT_DATABASE_HOST comment_db
-ENV COMMENT_DATABASE comments
+ENV COMMENT_DATABASE_HOST=comment_db COMMENT_DATABASE=comments
 
 CMD ["puma"]
