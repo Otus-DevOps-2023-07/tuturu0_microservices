@@ -17,5 +17,5 @@ spec:
         backend:
           service:
             name: ui
-            port: 
+            port:
               number: 9292
